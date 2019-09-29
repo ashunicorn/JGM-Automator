@@ -4,12 +4,15 @@ from target import TargetType
 if __name__ == '__main__':
     # 声明货物要移动到的建筑 ID 。
     targets = {
-        TargetType.Chair: 1,
-        TargetType.Wood: 7,
+        TargetType.Chair: 3,
+        TargetType.Wood: 9,
         TargetType.Bottle: 4,
-        TargetType.Vegetable: 5,
+        TargetType.Bag: 5,
         TargetType.Box: 2,
-        TargetType.Food: 8
+        TargetType.Grass: 8,
+        TargetType.Sofa: 1,
+        TargetType.Iron: 7,
+        TargetType.Book: 6
     }
 
     # 连接 adb 。

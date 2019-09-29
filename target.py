@@ -11,3 +11,8 @@ class TargetType(Enum):
     Wood = 'targets/Wood.jpg'
     Food = 'targets/Food.jpg'
     Box = 'targets/Box.jpg'
+    Iron = 'targets/Iron.jpg'
+    Bag = 'targets/Bag.jpg'
+    Grass = 'targets/Grass.jpg'
+    Sofa = 'targets/Sofa.jpg'
+    Book = 'targets/Book.jpg'
